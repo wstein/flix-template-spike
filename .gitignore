@@ -1,0 +1,10 @@
+*.fpkg
+*.jar
+.GITHUB_TOKEN
+artifact/
+build/
+lib/
+site/
+crash_report_*.txt
+/flix.jar
+/node_modules/
