@@ -1,10 +1,10 @@
 # flix-template
 
-[![Build and Test](https://github.com/wstein/flix-template/actions/workflows/build-and-test.yaml/badge.svg)](https://github.com/wstein/flix-template/actions/workflows/build-and-test.yaml)
-[![Flix](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwstein%2Fflix-template%2Fmain%2F.flixw%2Flock.toml&query=%24.compiler.version&label=flix&color=blue)](.flixw/lock.toml)
-[![flixw](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwstein%2Fflix-template%2Fmain%2F.flixw%2Flock.toml&query=%24.wrapperVersion&label=flixw&color=blue)](https://github.com/wstein/flixw)
+[![Build and Test](https://github.com/wstein/flix-template-spike/actions/workflows/build-and-test.yaml/badge.svg)](https://github.com/wstein/flix-template-spike/actions/workflows/build-and-test.yaml)
+[![Flix](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwstein%2Fflix-template-spike%2Fmain%2F.flixw%2Flock.toml&query=%24.compiler.version&label=flix&color=blue)](.flixw/lock.toml)
+[![flixw](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwstein%2Fflix-template-spike%2Fmain%2F.flixw%2Flock.toml&query=%24.wrapperVersion&label=flixw&color=blue)](https://github.com/wstein/flixw)
 [![Java](https://img.shields.io/badge/java-21%2B-blue)](https://adoptium.net/temurin/releases/?version=21)
-[![License](https://img.shields.io/github/license/wstein/flix-template?color=blue)](LICENSE)
+[![License](https://img.shields.io/github/license/wstein/flix-template-spike?color=blue)](LICENSE)
 
 A GitHub template for starting a [Flix](https://flix.dev) project, and a
 worked example of [`flixw`](https://github.com/wstein/flixw) — a
@@ -173,8 +173,8 @@ branch — the digest in a re-pinned lock is computed by the runner, and that is
 the thing worth reading before merging.
 
 `.github/workflows/docs.yaml` runs `./flixw doc` on every push to `main` and
-publishes this project's own pages to GitHub Pages — for this repository, at
-<https://wstein.github.io/flix-template/>.
+publishes this project's own documentation to <https://wstein.github.io/flix-template-spike/>
+when GitHub Pages is enabled.
 
 `flix doc` renders the whole standard library alongside the project and has no
 option to narrow that: `--Xlib` decides what is *compiled*, and without the
